@@ -10,7 +10,7 @@ function Experience() {
 
         <h1>
           Work <span>Experience</span>
-        </h1>
+        </h1> 
       </div>
 
       <div className="timeline">
