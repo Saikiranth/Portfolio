@@ -74,7 +74,7 @@ function Experience() {
 
             <div className="buttons">
             
-            <a href="https://github.com/Saikiranth/Video360" className="btn" target="_blank">GitHub</a>
+            <a href="https://github.com/Saikiranth/Video360" className="btn" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
 
           </div>
