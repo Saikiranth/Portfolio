@@ -1,0 +1,169 @@
+.projects {
+    width: 100%;
+    min-height: 100vh;
+    background: transparent;
+    padding: 100px 10%;
+}
+
+.project-heading {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.project-heading h4 {
+    color: #f83838;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.project-heading h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.project-heading h1 span {
+    color: #f83838;
+}
+
+.project-heading p {
+    color: #CBD5E1;
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ---------- Project Container ---------- */
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ---------- Project Card ---------- */
+
+.project-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(56,189,248,.2);
+    border-radius: 20px;
+    padding: 35px;
+    transition: .4s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px rgba(56,189,248,.35);
+}
+
+/* ---------- Icon ---------- */
+
+.project-icon {
+    font-size: 55px;
+    min-width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------- Content ---------- */
+
+.project-content {
+    flex: 1;
+}
+
+.project-card h2 {
+    color: white;
+    margin-bottom: 8px;
+    font-size: 30px;
+}
+
+.project-card h4 {
+    color: #f83838;
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+
+.project-card p {
+    color: #CBD5E1;
+    line-height: 28px;
+    text-align: justify;
+}
+
+/* ---------- Technologies ---------- */
+
+.tech {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech span {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #f83838;
+    color: white;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.tech span:hover {
+    background: #f83838;
+}
+
+/* ---------- Buttons ---------- */
+
+.buttons {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    background: #f83838;
+    color: white;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #0EA5E9;
+    transform: translateY(-3px);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 768px) {
+
+    .project-heading h1 {
+        font-size: 42px;
+    }
+
+    .project-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-icon {
+        margin: 0 auto;
+    }
+
+    .tech {
+        justify-content: center;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+}
