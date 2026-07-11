@@ -30,7 +30,7 @@ function Home() {
         </p>
 
         <div className="buttons">
-          <button className="#projects">Explore Projects</button>
+          <a href="#projects"><button className="btn1">Explore Projects</button></a>
           <a href="#contact"><button className="btn2">Contact Me</button></a>
         </div>
 
