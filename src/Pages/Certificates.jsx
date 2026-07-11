@@ -28,7 +28,7 @@ function Certificates() {
       image: "/Python .png",
     },
     {
-      title: "ES University Certificate",
+      title: "UNXT(Infosys Foundation) Certificate",
       image: "/Softskill.png",
     },
   ];
