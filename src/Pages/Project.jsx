@@ -1,3 +1,4 @@
+
 import React from "react";
 import "../Styles/Project.css";
 
@@ -22,8 +23,57 @@ function Project() {
         {/* Project 1 */}
 
         <div className="project-card">
-         
+          <div className="project-content">
+            <h2>Interview Readiness</h2>
 
+            <h4>Student Interview & Assessment Platform</h4>
+
+            <p>
+              Developed as part of my Java Learning Enabler role at Digit IT.
+              Built a full-stack platform for student interview preparation,
+              online assessments, evaluation, and performance tracking.
+              Implemented Admin/Student workflows, timed assessments, JWT
+              authentication, automated evaluation, and browser-based
+              proctoring with camera, microphone, screen sharing, fullscreen,
+              and violation monitoring.
+            </p>
+
+            <div className="tech">
+              <span>Java</span>
+              <span>Spring Boot</span>
+              <span>REST APIs</span>
+              <span>JWT</span>
+              <span>JPA</span>
+              <span>PostgreSQL</span>
+              <span>React.js</span>
+              <span>JavaScript</span>
+            </div>
+
+            <div className="buttons">
+              <a
+                href="https://github.com/Saikiranth/InterviewFronted"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+              >
+                GitHub
+              </a>
+
+              <a
+                href="https://interview-readiness-frontend.onrender.com/login"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+              >
+                Live
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Project 2 */}
+
+        <div className="project-card">
           <div className="project-content">
             <h2>ShopEase</h2>
 
@@ -59,22 +109,22 @@ function Project() {
               >
                 GitHub
               </a>
-               <a
+
+              <a
                 href="https://easy-shop-1-u9k3.onrender.com/register"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn">
+                className="btn"
+              >
                 Live
               </a>
             </div>
           </div>
         </div>
 
-        {/* Project 2 */}
+        {/* Project 3 */}
 
         <div className="project-card">
-          
-
           <div className="project-content">
             <h2>Smart Travel</h2>
 
@@ -105,6 +155,7 @@ function Project() {
               >
                 GitHub
               </a>
+
               <a
                 href="https://smart-travel1-one.vercel.app/"
                 target="_blank"
@@ -117,11 +168,9 @@ function Project() {
           </div>
         </div>
 
-        {/* Project 3 */}
+        {/* Project 4 */}
 
         <div className="project-card">
-          
-
           <div className="project-content">
             <h2>University Websites</h2>
 
@@ -143,10 +192,21 @@ function Project() {
             </div>
 
             <div className="buttons">
-              <a href="https://github.com/Saikiranth/ESUT" className="btn" target="_blanck">
+              <a
+                href="https://github.com/Saikiranth/ESUT"
+                className="btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 GitHub
               </a>
-              <a href="https://dresut.vercel.app/" className="btn" target="_blanck">
+
+              <a
+                href="https://dresut.vercel.app/"
+                className="btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Live
               </a>
             </div>
@@ -159,3 +219,4 @@ function Project() {
 }
 
 export default Project;
+
