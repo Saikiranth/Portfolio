@@ -58,8 +58,8 @@ function About() {
         </div>
 
         <a
-          href="/Saikiran_Resume.pdf"
-          download="Thammali_Saikiran_Resume.pdf"
+          href="/Thammali_Saikiran_Resume .pdf"
+          download="Thammali_Saikiran_Resume .pdf"
           className="about-btn">
           Download Resume
         </a>
