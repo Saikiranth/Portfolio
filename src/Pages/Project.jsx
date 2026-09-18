@@ -51,7 +51,7 @@ function Project() {
 
             <div className="buttons">
               <a
-                href="https://github.com/Saikiranth/InterviewFronted"
+                href="https://github.com/Saikiranth/Portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
@@ -60,7 +60,7 @@ function Project() {
               </a>
 
               <a
-                href="https://interview-readiness-frontend.onrender.com/login"
+                href="https://interviewfronted.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
